@@ -3,7 +3,8 @@
 <head>
     <meta charset="utf-8">
     <title>Pushwoosh Test</title>
-
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="manifest" href="/manifest.json">
     <script src="https://cdn.pushwoosh.com/webpush/v3/pushwoosh-web-notifications.js" async></script>
     <script>
@@ -24,7 +25,41 @@
         }]);
     </script>
 </head>
-<body>
-    <h1>Pushwoosh Web SDK usage sample</h1>
+<body class="text-center" data-new-gr-c-s-check-loaded="14.1088.0" data-gr-ext-installed="">
+
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+      <header class="masthead mb-auto">
+        <div class="inner">
+          <h3 class="masthead-brand">Cover</h3>
+          <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link active" href="#">Home</a>
+            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">Contact</a>
+          </nav>
+        </div>
+      </header>
+
+      <main role="main" class="inner cover">
+        <h1 class="cover-heading">Cover your page.</h1>
+        <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+        <p class="lead">
+        <button class="btn btn-lg btn-primary" type="button" name="button" onclick="window.pushwooshLite.instance.showSubscriptionWindow()">Subscribe Now</button>
+        </p>
+      </main>
+
+      <footer class="mastfoot mt-auto">
+        <div class="inner">
+          <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+        </div>
+      </footer>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="bootstrap.min.js"></script>
+  
 </body>
 </html>
