@@ -1,7 +1,0 @@
-{
-  "name": "Shamil's Pushwoosh Notifications",
-  "short_name": "Shamil's Pushwoosh Notifications",
-  "gcm_sender_id": "531157356310",
-  "display": "standalone",
-  "gcm_user_visible_only": true
-}
